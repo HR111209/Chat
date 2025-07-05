@@ -43,7 +43,7 @@ def write_to_chat_log(message):
 # Login page
 def login():
     st.title("🔒 Secure Chat Login")
-    username = st.text_input("Enter your name (e.g., Harshit):")
+    username = st.text_input("Enter your name (e.g., Rohit):")
     password = st.text_input("Enter password:", type="password")
 
     if st.button("Login"):
