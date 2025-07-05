@@ -4,7 +4,7 @@ import os
 import time
 
 # Constants
-PASSWORD = "111209"
+PASSWORD = "1234"
 CHAT_LOG_FILE = "chat_log.txt"
 REFRESH_INTERVAL = 5  # seconds
 
@@ -36,7 +36,7 @@ def write_to_chat_log(message):
 # Login screen
 def login():
     st.title("🔒 Secure Chat Login")
-    username = st.text_input("Enter your name (e.g., Harshit):")
+    username = st.text_input("Enter your name (e.g., Rohit):")
     password = st.text_input("Enter password:", type="password")
 
     if st.button("Login"):
