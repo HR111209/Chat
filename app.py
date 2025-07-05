@@ -35,7 +35,7 @@ def write_to_chat_log(message):
 
 # Login screen
 def login():
-    st.title("🔒 Secure Chat Login")
+    st.title("🔒 Allen Chat Login")
     username = st.text_input("Enter your name (e.g., Rohit):")
     password = st.text_input("Enter password:", type="password")
 
