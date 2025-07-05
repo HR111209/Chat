@@ -4,7 +4,7 @@ import os
 import time
 
 # Constants
-PASSWORD = "1234"
+PASSWORD = "111209"
 CHAT_LOG_FILE = "chat_log.txt"
 REFRESH_INTERVAL = 5  # seconds
 
