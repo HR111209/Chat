@@ -6,7 +6,7 @@ from streamlit_autorefresh import st_autorefresh
 
 # --------------------- CONFIG ---------------------
 st.set_page_config(page_title="NEET UG 2025 Portal", layout="centered", initial_sidebar_state="collapsed")
-PASSWORD = "111209"
+PASSWORD = "05445"
 CHAT_LOG_FILE = "chat_log.txt"
 REFRESH_INTERVAL = 5  # in seconds
 
